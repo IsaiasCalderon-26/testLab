@@ -1,0 +1,73 @@
+# Dependencias
+/node_modules
+/vendor
+
+# Archivos de configuración locales
+/.env
+/.vscode
+/.idea
+*.swp
+*~.nib
+local.properties
+
+# Directorios de compilación y paquetes
+/bin/
+/build/
+/out/
+/target/
+/dist/
+*.log
+*.tmp
+*.tmp.*
+temp/
+tmp/
+*.sublime-workspace
+
+# Archivos de paquete
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos de base de datos
+*.db
+*.sql
+*.sqlite
+
+# Archivos de certificados SSL
+*.keystore
+*.p12
+*.pem
+*.crt
+*.cer
+*.key
+
+# Archivos y carpetas de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Carpetas de herramientas de desarrollo
+/.pnp
+.pnp.js
+/coverage
+/.nyc_output
+
+# Archivos de registro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios generados por herramientas
+/.sass-cache
+/.next
+/.cache
+/.parcel-cache
+/.vuepress/dist
+/.serverless/
+/.fusebox/
+/.dynamodb/
+/.tern-port
